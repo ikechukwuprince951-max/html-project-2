@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+<header>
+    <h1>My Personal Portfolio</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+
+        <p>Hello! My name is Ikechukwu Prince.</p>
+
+        <p>
+            I am a passionate aspiring web developer
+            learning how to build beautiful and functional websites.
+        </p>
+
+        <a href="#about">Learn More About Me</a>
+    </section>
+<section id="about">
+    <h2>About Me</h2>
+
+    <img src="images/profile.jpg"
+         alt="A profile picture of Ikechukwu Prince"
+         width="200">
+
+    <p>
+        My name is Ikechukwu Prince. I am an aspiring web developer
+        with a passion for technology and creativity.
+        I enjoy learning HTML and building websites.
+        My goal is to become a skilled frontend developer
+        and create useful digital experiences.
+    </p>
+</section>
+
+<section id="work">
+    <h2>My Projects</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Project Link</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Personal Portfolio</td>
+                <td>A website about me and my skills.</td>
+                <td><a href="https://github.com/">View Project</a></td>
+            </tr>
+
+            <tr>
+                <td>Restaurant Website</td>
+                <td>A website showcasing restaurant meals and services.</td>
+                <td><a href="https://github.com/">View Project</a></td>
+            </tr>
+
+            <tr>
+                <td>Landing Page</td>
+                <td>A simple webpage designed to introduce a product.</td>
+                <td><a href="https://github.com/">View Project</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+
+    <p>You can download my resume using the link below:</p>
+
+    <a href="resume.pdf" download>Download My Resume</a>
+
+    <h3>My Introduction</h3>
+
+    <p>Listen to my audio introduction:</p>
+
+    <audio controls>
+        <source src="introduction.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Feel free to get in touch with me using the form below.</p>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"
+                  rows="5" cols="30"
+                  placeholder="Write your message here"
+                  required></textarea>
+
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Ikechukwu Prince. All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>
